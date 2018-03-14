@@ -58,6 +58,7 @@ MainWindow::MainWindow(DMainWindow *parent) : DMainWindow(parent)
 
     if (this->titlebar()) {
         this->titlebar()->setMenu(menu);
+        this->titlebar()->setBackgroundTransparent(true);
 
         Toolbar *toolbar = new Toolbar();
         this->titlebar()->setCustomWidget(toolbar, Qt::AlignVCenter, false);
