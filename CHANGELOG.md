@@ -1,3 +1,18 @@
+<a name="1.3.7"></a>
+## 1.3.7 (2018-05-25)
+
+
+#### Bug Fixes
+
+*   visiable lines at list view item on window scale ratio is 1.5 ([5d9e4f46](5d9e4f46))
+*   Adapt lintian ([2671f23d](2671f23d))
+
+#### Features
+
+*   add manual id ([d6322fa8](d6322fa8))
+
+
+
 # Change Log
 This is default voice recorder application for Deepin.
 
