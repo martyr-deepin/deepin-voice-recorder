@@ -4,12 +4,12 @@
     <message>
         <location filename="../src/file_view.cpp" line="59"/>
         <source>Rename</source>
-        <translation>Hernoemen</translation>
+        <translation>Naam wijzigen</translation>
     </message>
     <message>
         <location filename="../src/file_view.cpp" line="61"/>
         <source>Display in file manager</source>
-        <translation>Weergeven in bestandsbeheerder</translation>
+        <translation>Tonen in bestandsbeheerder</translation>
     </message>
     <message>
         <location filename="../src/file_view.cpp" line="63"/>
@@ -27,7 +27,7 @@
     <message>
         <location filename="../src/main_window.cpp" line="55"/>
         <source>Open saved directory</source>
-        <translation>Open opgeslagen map</translation>
+        <translation>Opgeslagen map openen</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="57"/>
@@ -37,7 +37,7 @@
     <message>
         <location filename="../src/main_window.cpp" line="59"/>
         <source>Help</source>
-        <translation>Help</translation>
+        <translation>Hulp</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="61"/>
@@ -47,12 +47,12 @@
     <message>
         <location filename="../src/main_window.cpp" line="168"/>
         <source>Deepin Voice Recorder is a beautiful and easy to use voice recording application with simple design. It supports visual recording, recording playback, recording list management and other functions.</source>
-        <translation>Deepin Voice Recorder is een nette en handige applicatie voor stemopnames, met een intuïtief ontwerp. Deepin Voice Recorder ondersteunt visuele feedback bij het opnemen, makkelijk afspelen en beheren van opnames en nog veel meer.</translation>
+        <translation>Deepin Geluidsopname is een prachtig ontworpen en eenvoudig te gebruiken applicatie voor stemopnames. Deepin Geluidsopname ondersteunt visuele feedback bij het opnemen, afspelen en beheren van opnames en meer.</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="180"/>
         <source>Deepin Voice Recorder</source>
-        <translation>Deepin Voice Recorder</translation>
+        <translation>Deepin Geluidsopname</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="181"/>
@@ -65,7 +65,7 @@
     <message>
         <location filename="../src/main.cpp" line="45"/>
         <source>Deepin Voice Recorder</source>
-        <translation>Deepin Voice Recorder</translation>
+        <translation>Deepin Geluidsopname</translation>
     </message>
 </context>
 <context>
@@ -82,7 +82,7 @@
     <message>
         <location filename="../src/utils.cpp" line="136"/>
         <source>Recording</source>
-        <translation>Aan het opnemen</translation>
+        <translation>Bezig met opnemen</translation>
     </message>
 </context>
 </TS>

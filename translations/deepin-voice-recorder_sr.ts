@@ -9,12 +9,12 @@
     <message>
         <location filename="../src/file_view.cpp" line="61"/>
         <source>Display in file manager</source>
-        <translation type="unfinished"/>
+        <translation>Прикажи у управнику података</translation>
     </message>
     <message>
         <location filename="../src/file_view.cpp" line="63"/>
         <source>Move to trash</source>
-        <translation type="unfinished"/>
+        <translation>Премести у смеће</translation>
     </message>
 </context>
 <context>
@@ -22,17 +22,17 @@
     <message>
         <location filename="../src/main_window.cpp" line="53"/>
         <source>New recording</source>
-        <translation type="unfinished"/>
+        <translation>Нови снимак</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="55"/>
         <source>Open saved directory</source>
-        <translation type="unfinished"/>
+        <translation>Отвори место чувања</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="57"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>О програму</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="59"/>
@@ -42,17 +42,17 @@
     <message>
         <location filename="../src/main_window.cpp" line="61"/>
         <source>Exit</source>
-        <translation type="unfinished"/>
+        <translation>Изађи</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="168"/>
         <source>Deepin Voice Recorder is a beautiful and easy to use voice recording application with simple design. It supports visual recording, recording playback, recording list management and other functions.</source>
-        <translation type="unfinished"/>
+        <translation>Дипин Снимач Гласа је леп и лак за коришћење програм једноставног дизајна. Подржава визуелно снимање, пуштање снимка, управљање листом снимака и друге функције.</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="180"/>
         <source>Deepin Voice Recorder</source>
-        <translation type="unfinished"/>
+        <translation>Дипин Снимач Гласа</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="181"/>
@@ -65,7 +65,7 @@
     <message>
         <location filename="../src/main.cpp" line="45"/>
         <source>Deepin Voice Recorder</source>
-        <translation type="unfinished"/>
+        <translation>Дипин Снимач Гласа</translation>
     </message>
 </context>
 <context>
@@ -74,7 +74,7 @@
         <location filename="../src/record_page.cpp" line="55"/>
         <location filename="../src/record_page.cpp" line="219"/>
         <source>New recording</source>
-        <translation type="unfinished"/>
+        <translation>Нови снимак</translation>
     </message>
 </context>
 <context>
@@ -82,7 +82,7 @@
     <message>
         <location filename="../src/utils.cpp" line="136"/>
         <source>Recording</source>
-        <translation type="unfinished"/>
+        <translation>Снимање</translation>
     </message>
 </context>
 </TS>

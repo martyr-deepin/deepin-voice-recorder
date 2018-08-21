@@ -9,12 +9,12 @@
     <message>
         <location filename="../src/file_view.cpp" line="61"/>
         <source>Display in file manager</source>
-        <translation>Dosya yöneticide göster</translation>
+        <translation>Dosya yöneticisinde görüntüle</translation>
     </message>
     <message>
         <location filename="../src/file_view.cpp" line="63"/>
         <source>Move to trash</source>
-        <translation>Çöpe taşı</translation>
+        <translation>Çöpe at</translation>
     </message>
 </context>
 <context>
@@ -27,7 +27,7 @@
     <message>
         <location filename="../src/main_window.cpp" line="55"/>
         <source>Open saved directory</source>
-        <translation>Kaydedilen dizini aç</translation>
+        <translation>Kayıt klasörünü aç</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="57"/>
@@ -47,7 +47,7 @@
     <message>
         <location filename="../src/main_window.cpp" line="168"/>
         <source>Deepin Voice Recorder is a beautiful and easy to use voice recording application with simple design. It supports visual recording, recording playback, recording list management and other functions.</source>
-        <translation>Deepin Ses Kaydedici basit tasarımlı, güzel ve kullanımı kolay bir ses kaydedicisidir. Görsel kayıt, kayıt oynatıcısı, kayıt listesi yönetimi ve diğer özellikleri destekler</translation>
+        <translation>Deepin Ses Kaydedici basit tasarımlı, güzel ve kullanımı kolay bir ses kaydedicisidir. Görsel kayıt, kayıt oynatma, kayıt listesi yönetimi gibi özellikleri vardır.</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="180"/>

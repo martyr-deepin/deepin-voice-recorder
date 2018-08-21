@@ -1,20 +1,20 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hi_IN" version="2.1">
 <context>
     <name>FileView</name>
     <message>
         <location filename="../src/file_view.cpp" line="59"/>
         <source>Rename</source>
-        <translation>Перейменувати</translation>
+        <translation>नाम बदलें</translation>
     </message>
     <message>
         <location filename="../src/file_view.cpp" line="61"/>
         <source>Display in file manager</source>
-        <translation>Показати у файловому менеджері</translation>
+        <translation>फ़ाइल प्रबंधक में देखें</translation>
     </message>
     <message>
         <location filename="../src/file_view.cpp" line="63"/>
         <source>Move to trash</source>
-        <translation>Перемістити в кошик</translation>
+        <translation>कचरे में डालें</translation>
     </message>
 </context>
 <context>
@@ -22,42 +22,42 @@
     <message>
         <location filename="../src/main_window.cpp" line="53"/>
         <source>New recording</source>
-        <translation>Новий запис</translation>
+        <translation>नई रिकॉर्डिंग</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="55"/>
         <source>Open saved directory</source>
-        <translation>Відкрити каталог зберігання</translation>
+        <translation>संचित की गई डायरेक्टरी खोलें</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="57"/>
         <source>About</source>
-        <translation>Про програму</translation>
+        <translation>बारे में</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="59"/>
         <source>Help</source>
-        <translation>Допомога</translation>
+        <translation>मदद</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="61"/>
         <source>Exit</source>
-        <translation>Вихід</translation>
+        <translation>बंद करें</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="168"/>
         <source>Deepin Voice Recorder is a beautiful and easy to use voice recording application with simple design. It supports visual recording, recording playback, recording list management and other functions.</source>
-        <translation>Deepin Voice Recorder - це елегантна і проста у використанні програма для запису голосу зі зручним інтерфейсом. Окрім самого запису, програма підтримує відтворення записів, керування списком записів та інші функції.</translation>
+        <translation>डीपिन ध्वनि रिकॉर्डर एक सुंदर व उपयोग में आसान ध्वनि रिकॉर्ड करने हेतु अनुप्रयोग है, जिसका डिज़ाइन काफ़ी सरल है। यह दृश्य रिकॉर्डिंग, रिकॉर्डिंग प्लेबैक, रिकॉर्डिंग सूची प्रबंधन एवं अन्य संबंधी कार्यों का समर्थन करता है।</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="180"/>
         <source>Deepin Voice Recorder</source>
-        <translation>Deepin Диктофон</translation>
+        <translation>डीपिन ध्वनि रिकॉर्डर</translation>
     </message>
     <message>
         <location filename="../src/main_window.cpp" line="181"/>
         <source>Version</source>
-        <translation>Версія</translation>
+        <translation>संस्करण</translation>
     </message>
 </context>
 <context>
@@ -65,7 +65,7 @@
     <message>
         <location filename="../src/main.cpp" line="45"/>
         <source>Deepin Voice Recorder</source>
-        <translation>Deepin Диктофон</translation>
+        <translation>डीपिन ध्वनि रिकॉर्डर</translation>
     </message>
 </context>
 <context>
@@ -74,7 +74,7 @@
         <location filename="../src/record_page.cpp" line="55"/>
         <location filename="../src/record_page.cpp" line="219"/>
         <source>New recording</source>
-        <translation>Новий запис</translation>
+        <translation>नई रिकॉर्डिंग</translation>
     </message>
 </context>
 <context>
@@ -82,7 +82,7 @@
     <message>
         <location filename="../src/utils.cpp" line="136"/>
         <source>Recording</source>
-        <translation>Запис</translation>
+        <translation>रिकॉर्डिंग</translation>
     </message>
 </context>
 </TS>
