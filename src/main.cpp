@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 
         app.setOrganizationName("deepin");
         app.setApplicationName("deepin-voice-recorder");
-        app.setApplicationVersion("1.0");
+        app.setApplicationVersion(DApplication::buildVersion("1.0"));
 
         app.setProductIcon(QIcon(Utils::getQrcPath("logo_96.svg")));
         app.setProductName(DApplication::translate("MainWindow", "Deepin Voice Recorder"));
