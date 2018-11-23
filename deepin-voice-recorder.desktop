@@ -2,19 +2,31 @@
 Categories=AudioVideo;Recorder;
 Comment=Record voice
 Exec=deepin-voice-recorder
+GenericName=Voice Recorder
 Icon=deepin-voice-recorder
 Name=Deepin Voice Recorder
-GenericName=Voice Recorder
 StartupNotify=true
 TryExec=deepin-voice-recorder
 Type=Application
 X-Deepin-ManualID=deepin-voice-recorder
 X-Deepin-Vendor=deepin
 
-# Translations
-Name[zh_CN]=深度录音
-Comment[zh_CN]=声音录制工具
-Name[zh_HK]=深度錄音
+# Translations:
+# Do not manually modify!
+Comment[ar]=تسجيل صوت
+Comment[it]=Record voice
+Comment[ru]=Запись голоса
+Comment[zh_CN]=录音
 Comment[zh_HK]=聲音錄製工具
-Name[zh_TW]=Deepin 錄音
 Comment[zh_TW]=錄製聲音
+GenericName[ar]=مسجل الصوت
+GenericName[it]=Voice Recorder
+GenericName[ru]=Диктофон
+GenericName[zh_CN]=录音
+Name[ar]=مسجل الصوت الخاص بديبين
+Name[it]=Deepin Voice Recorder
+Name[ru]=Диктофон Deepin
+Name[zh_CN]=深度录音
+Name[zh_HK]=深度錄音
+Name[zh_TW]=Deepin 錄音
+
