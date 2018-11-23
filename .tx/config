@@ -8,3 +8,10 @@ file_filter = translations/deepin-voice-recorder_<lang>.ts
 source_file = translations/deepin-voice-recorder.ts
 source_lang = en
 type = QT
+
+[deepin-voice-recorder.desktop]
+file_filter = translations/desktop/desktop_<lang>.ts
+source_file = translations/desktop/desktop.ts
+source_lang = en
+type = QT
+

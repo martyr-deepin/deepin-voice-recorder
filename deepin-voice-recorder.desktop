@@ -4,10 +4,12 @@ Comment=Record voice
 Exec=deepin-voice-recorder
 Icon=deepin-voice-recorder
 Name=Deepin Voice Recorder
+GenericName=Voice Recorder
 StartupNotify=true
 TryExec=deepin-voice-recorder
 Type=Application
 X-Deepin-ManualID=deepin-voice-recorder
+X-Deepin-Vendor=deepin
 
 # Translations
 Name[zh_CN]=深度录音
