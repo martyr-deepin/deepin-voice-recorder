@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Build-Depends: debhelper (>= 9), pkg-config, qt5-qmake, qttools5-dev-tools, libdtkwidget-dev, libavformat-dev
 Standards-Version: 3.9.8
-Homepage: https://github.com/manateelazycat/deepin-voice-recorder
+Homepage: https://github.com/linuxdeepin/deepin-voice-recorder
 
 Package: deepin-voice-recorder
 Architecture: any
