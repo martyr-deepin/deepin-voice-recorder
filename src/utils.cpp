@@ -37,7 +37,7 @@
 
 Utils::Utils(QObject *parent) : QObject(parent)
 {
-    
+
 }
 
 QString Utils::getImagePath(QString imageName)
@@ -133,9 +133,9 @@ QString Utils::formatMillisecond(int millisecond)
 QString Utils::getRecordingSaveDirectory()
 {
     QDir musicDirectory = QDir(QStandardPaths::standardLocations(QStandardPaths::MusicLocation).first());
-    QString subDirectory = tr("Recording");
+    QString subDirectory = tr("Recordings");
     musicDirectory.mkdir(subDirectory);
-    
+
     return musicDirectory.filePath(subDirectory);
 }
 
@@ -146,10 +146,10 @@ QFileInfoList Utils::getRecordingFileinfos()
     return QDir(Utils::getRecordingSaveDirectory()).entryInfoList(filters, QDir::Files|QDir::NoDotAndDotDot);
 }
 
-bool Utils::fileExists(QString path) 
+bool Utils::fileExists(QString path)
 {
     QFileInfo check_file(path);
-    
+
     // check if file exists and if yes: Is it really a file and no directory?
     return check_file.exists() && check_file.isFile();
 }

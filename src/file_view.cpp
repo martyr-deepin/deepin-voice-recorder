@@ -59,7 +59,7 @@ FileView::FileView(QWidget *parent) : QListWidget(parent)
     connect(renameAction, &QAction::triggered, this, &FileView::renameItem);
     displayAction = new QAction(tr("Display in file manager"), this);
     connect(displayAction, &QAction::triggered, this, &FileView::displayItem);
-    trashAction = new QAction(tr("Move to trash"), this);
+    trashAction = new QAction(tr("Delete"), this);
     connect(trashAction, &QAction::triggered, this, &FileView::trashItem);
     rightMenu->addAction(renameAction);
     rightMenu->addAction(displayAction);
@@ -97,24 +97,24 @@ void FileView::loadItems(QStringList sortedItems, int scrollValue)
 
     foreach (auto fileInfo, Utils::getRecordingFileinfos()) {
         QString filepath = fileInfo.absoluteFilePath();
-        
+
         if (!sortedItems.contains(filepath)) {
             sortedItems.removeOne(filepath);
             otherItems << filepath;
         }
     }
-    
+
     foreach (auto item, sortedItems) {
         // Just restore when old item filepath exist.
         if (Utils::fileExists(item)) {
             loadItem(item);
         }
     }
-    
+
     foreach (auto item, otherItems) {
         loadItem(item);
     }
-    
+
     // Restore scroll value.
     verticalScrollBar()->setValue(scrollValue);
 }
@@ -135,7 +135,7 @@ void FileView::monitorFileChanged(QString)
 
         sortedItems << fileItem->getRecodingFilepath();
     }
-    
+
     loadItems(sortedItems, verticalScrollBar()->value());
 
     monitorList();

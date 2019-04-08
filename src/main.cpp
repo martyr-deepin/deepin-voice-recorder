@@ -37,11 +37,11 @@ int main(int argc, char *argv[])
 {
     DApplication::loadDXcbPlugin();
 
-    const char *descriptionText = QT_TRANSLATE_NOOP("MainWindow", "Deepin Voice Recorder is a beautiful and "
-                                                    "easy to use voice recording application "
-                                                    "with simple design. It supports visual "
-                                                    "recording, recording playback, recording "
-                                                    "list management and other functions.");
+    const char *descriptionText =
+        QT_TRANSLATE_NOOP("MainWindow",
+                          "Deepin Voice Recorder is a simple, beautiful and easy to use "
+                          "voice recording application. It supports visual recording, "
+                          "playback, recordings management and other functions.");
 
     const QString acknowledgementLink = "https://www.deepin.org/acknowledgments/deepin-voice-recorder#thanks";
 
