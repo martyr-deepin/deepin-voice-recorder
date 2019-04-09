@@ -2,68 +2,40 @@
 <context>
     <name>FileView</name>
     <message>
-        <location filename="../src/file_view.cpp" line="59"/>
+        <location filename="../src/file_view.cpp" line="58"/>
         <source>Rename</source>
         <translation>Renomear</translation>
     </message>
     <message>
-        <location filename="../src/file_view.cpp" line="61"/>
+        <location filename="../src/file_view.cpp" line="60"/>
         <source>Display in file manager</source>
         <translation>Exibir no gerenciador de arquivos</translation>
     </message>
     <message>
-        <location filename="../src/file_view.cpp" line="63"/>
-        <source>Move to trash</source>
-        <translation>Mover para lixeira</translation>
+        <location filename="../src/file_view.cpp" line="62"/>
+        <source>Delete</source>
+        <translation>Excluir</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../src/main_window.cpp" line="53"/>
+        <location filename="../src/main_window.cpp" line="50"/>
         <source>New recording</source>
         <translation>Nova gravação</translation>
     </message>
     <message>
-        <location filename="../src/main_window.cpp" line="55"/>
+        <location filename="../src/main_window.cpp" line="52"/>
         <source>Open saved directory</source>
         <translation>Abrir diretório salvo</translation>
     </message>
     <message>
-        <location filename="../src/main_window.cpp" line="57"/>
-        <source>About</source>
-        <translation>Sobre</translation>
+        <location filename="../src/main.cpp" line="41"/>
+        <source>Deepin Voice Recorder is a simple, beautiful and easy to use voice recording application. It supports visual recording, playback, recordings management and other functions.</source>
+        <translation>Deepin Voice Recorder é um aplicativo de gravação de voz simples, bonito e fácil de usar. Suporta gravação visual, reprodução, gerenciamento de gravações e outras funções.</translation>
     </message>
     <message>
-        <location filename="../src/main_window.cpp" line="59"/>
-        <source>Help</source>
-        <translation>Ajuda</translation>
-    </message>
-    <message>
-        <location filename="../src/main_window.cpp" line="61"/>
-        <source>Exit</source>
-        <translation>Sair</translation>
-    </message>
-    <message>
-        <location filename="../src/main_window.cpp" line="168"/>
-        <source>Deepin Voice Recorder is a beautiful and easy to use voice recording application with simple design. It supports visual recording, recording playback, recording list management and other functions.</source>
-        <translation>Gravador é um aplicativo de gravação de voz bonito e fácil de usar com design simples. Ele suporta gravação visual, gravação de reprodução, gestão de lista de gravação e outras funções.</translation>
-    </message>
-    <message>
-        <location filename="../src/main_window.cpp" line="180"/>
-        <source>Deepin Voice Recorder</source>
-        <translation>Gravador</translation>
-    </message>
-    <message>
-        <location filename="../src/main_window.cpp" line="181"/>
-        <source>Version</source>
-        <translation>Versão</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../src/main.cpp" line="45"/>
+        <location filename="../src/main.cpp" line="59"/>
         <source>Deepin Voice Recorder</source>
         <translation>Gravador</translation>
     </message>
@@ -71,8 +43,8 @@
 <context>
     <name>RecordPage</name>
     <message>
-        <location filename="../src/record_page.cpp" line="55"/>
-        <location filename="../src/record_page.cpp" line="219"/>
+        <location filename="../src/record_page.cpp" line="59"/>
+        <location filename="../src/record_page.cpp" line="234"/>
         <source>New recording</source>
         <translation>Nova gravação</translation>
     </message>
@@ -81,8 +53,8 @@
     <name>Utils</name>
     <message>
         <location filename="../src/utils.cpp" line="136"/>
-        <source>Recording</source>
-        <translation>Gravação</translation>
+        <source>Recordings</source>
+        <translation>Gravações</translation>
     </message>
 </context>
 </TS>
