@@ -8,6 +8,6 @@ Homepage: https://github.com/linuxdeepin/deepin-voice-recorder
 
 Package: deepin-voice-recorder
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5multimedia5-plugins
 Description: Voice recorder application for deepin
  deepin voice recorder tool.
