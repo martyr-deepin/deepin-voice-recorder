@@ -1,3 +1,11 @@
+<a name="1.3.10"></a>
+### 1.3.10 (2019-04-28)
+
+
+#### Bug Fixes
+
+*   no service found for - "org.qt-project.qt.audiosource" (#5) ([f807473d](f807473d))
+
 <a name=""></a>
 ##  1.3.9 (2018-11-23)
 
