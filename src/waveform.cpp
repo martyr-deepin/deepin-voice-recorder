@@ -43,7 +43,7 @@ Waveform::Waveform(QWidget *parent) : QWidget(parent)
 
     lastSampleTime = QDateTime::currentDateTime();
 
-    renderTimer = new QTimer();
+    renderTimer = new QTimer(this);
     connect(renderTimer, SIGNAL(timeout()), this, SLOT(renderWave()));
     renderTimer->start(SAMPLE_DURATION);
 }

@@ -60,7 +60,7 @@ RecordPage::RecordPage(QWidget *parent) : QWidget(parent)
     QFont titleFont;
     titleFont.setPixelSize(26);
     titleLabel->setFont(titleFont);
-    waveform = new Waveform();
+    waveform = new Waveform(this);
     QFont recordTimeFont;
     recordTimeFont.setPixelSize(14);
     recordTimeLabel = new QLabel("00:00");
@@ -77,7 +77,7 @@ RecordPage::RecordPage(QWidget *parent) : QWidget(parent)
     expandAnimationButtonLayout = new QVBoxLayout();
     expandAnimationButtonLayout->setContentsMargins(0, 0, 0, 0);
 
-    expandAnimationButton = new ExpandAnimationButton();
+    expandAnimationButton = new ExpandAnimationButton(this);
     connect(expandAnimationButton, &ExpandAnimationButton::finish, this, &RecordPage::handleExpandAnimationFinish);
 
     expandAnimationButtonLayout->addWidget(expandAnimationButton, 0, Qt::AlignHCenter);
@@ -137,7 +137,7 @@ RecordPage::RecordPage(QWidget *parent) : QWidget(parent)
         connect(audioProbe, SIGNAL(audioBufferProbed(QAudioBuffer)), this, SLOT(renderLevel(QAudioBuffer)));
     }
 
-    tickerTimer = new QTimer();
+    tickerTimer = new QTimer(this);
     connect(tickerTimer, SIGNAL(timeout()), this, SLOT(renderRecordingTime()));
     tickerTimer->start(1000);
 

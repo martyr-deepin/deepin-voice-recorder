@@ -46,7 +46,7 @@ const int MainWindow::PAGE_TYPE_LIST = 3;
 
 MainWindow::MainWindow(DMainWindow *parent) : DMainWindow(parent)
 {
-    menu = new QMenu();
+    menu = new QMenu(this);
     newRecordAction = new QAction(tr("New recording"), this);
     connect(newRecordAction, &QAction::triggered, this, &MainWindow::newRecord);
     openSaveDirectoryAction = new QAction(tr("Open saved directory"), this);
@@ -110,7 +110,7 @@ void MainWindow::showRecordPage()
         currentWidget->deleteLater();
     }
 
-    recordPage = new RecordPage();
+    recordPage = new RecordPage(this);
     connect(recordPage, &RecordPage::finishRecord, this, &MainWindow::showListPage);
     connect(recordPage, &RecordPage::cancelRecord, this, &MainWindow::showFirstPage);
 

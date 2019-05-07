@@ -36,10 +36,10 @@ DWIDGET_USE_NAMESPACE
 
 ListPage::ListPage(QWidget *parent) : QWidget(parent)
 {
-    layout = new QVBoxLayout();
+    layout = new QVBoxLayout(this);
     setLayout(layout);
 
-    fileView = new FileView();
+    fileView = new FileView(this);
     connect(fileView, &FileView::play, this, &ListPage::play);
     connect(fileView, &FileView::pause, this, &ListPage::pause);
     connect(fileView, &FileView::resume, this, &ListPage::resume);
@@ -47,15 +47,15 @@ ListPage::ListPage(QWidget *parent) : QWidget(parent)
 
     connect(this, &ListPage::playFinished, fileView, &FileView::handlePlayFinish);
 
-    audioPlayer = new QMediaPlayer();
+    audioPlayer = new QMediaPlayer(this);
 
     connect(audioPlayer, SIGNAL(stateChanged(QMediaPlayer::State)), this, SLOT(handleStateChanged(QMediaPlayer::State)));
-    audioProbe = new QAudioProbe();
+    audioProbe = new QAudioProbe(this);
     if (audioProbe->setSource(audioPlayer)) {
         connect(audioProbe, SIGNAL(audioBufferProbed(QAudioBuffer)), this, SLOT(renderLevel(QAudioBuffer)));
     }
 
-    waveform = new Waveform();
+    waveform = new Waveform(this);
     waveform->hide();
     recordButton = new DImageButton(
         Utils::getQrcPath("record_small_normal.svg"),

@@ -54,7 +54,7 @@ FileView::FileView(QWidget *parent) : QListWidget(parent)
             emit play(fileItem->getRecodingFilepath());
         });
 
-    rightMenu = new QMenu();
+    rightMenu = new QMenu(this);
     renameAction = new QAction(tr("Rename"), this);
     connect(renameAction, &QAction::triggered, this, &FileView::renameItem);
     displayAction = new QAction(tr("Display in file manager"), this);
@@ -65,7 +65,7 @@ FileView::FileView(QWidget *parent) : QListWidget(parent)
     rightMenu->addAction(displayAction);
     rightMenu->addAction(trashAction);
 
-    fileWatcher = new QFileSystemWatcher();
+    fileWatcher = new QFileSystemWatcher(this);
     fileWatcher->addPath(Utils::getRecordingSaveDirectory());
     connect(fileWatcher, &QFileSystemWatcher::directoryChanged, this, &FileView::monitorFileChanged);
 
@@ -74,7 +74,7 @@ FileView::FileView(QWidget *parent) : QListWidget(parent)
 
 void FileView::loadItem(QString item)
 {
-    FileItem *fileItem = new FileItem();
+    FileItem *fileItem = new FileItem(this);
     fileItem->setFileInfo(QFileInfo(item));
     connect(fileItem, SIGNAL(play()), this, SLOT(handlePlay()));
     connect(fileItem, SIGNAL(pause()), this, SLOT(handlePause()));
@@ -82,9 +82,9 @@ void FileView::loadItem(QString item)
     connect(fileItem, SIGNAL(stop()), this, SLOT(handleStop()));
     connect(fileItem, SIGNAL(enter()), this, SLOT(handleEnter()));
 
-    addItem(fileItem->getItem());
+    addItem(fileItem->getItem().data());
     fileItem->getItem()->setSizeHint(QSize(100, 60));
-    setItemWidget(fileItem->getItem(), fileItem);
+    setItemWidget(fileItem->getItem().data(), fileItem);
 }
 
 void FileView::loadItems(QStringList sortedItems, int scrollValue)

@@ -49,7 +49,7 @@ ShrankAnimationButton::ShrankAnimationButton(QWidget *parent) : QWidget(parent)
 
 void ShrankAnimationButton::startAnimation()
 {
-    renderTimer = new QTimer();
+    renderTimer = new QTimer(this);
     connect(renderTimer, SIGNAL(timeout()), this, SLOT(renderAnimation()));
     renderTimer->start(animationDuration);
 }
