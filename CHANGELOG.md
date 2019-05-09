@@ -1,3 +1,13 @@
+<a name=""></a>
+##  1.4.0 (2019-05-09)
+
+
+#### Others
+
+*   memory leak ([5104a110](https://github.com/linuxdeepin/deepin-voice-recorder/commit/5104a1109e0eec0e97d512dfed4539240d838f5e))
+
+
+
 <a name="1.3.10"></a>
 ### 1.3.10 (2019-04-28)
 
