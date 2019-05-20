@@ -63,7 +63,6 @@ FileItem::FileItem(QWidget *parent) : QWidget(parent)
     nameTemplate = "<span style='font-size:14px; font-weight:400; color:#000000;'>%1</span>";
     durationTemplate = "<span style='font-size:11px; color:#808080'>%1</span>";
 
-    item = QSharedPointer<QListWidgetItem>(new QListWidgetItem);
     layout = new QHBoxLayout();
     infoLayout = new QHBoxLayout();
     actionLayout = new QHBoxLayout();
@@ -353,11 +352,6 @@ void FileItem::switchStatus(int status)
     }
 
     switchLock = false;
-}
-
-QSharedPointer<QListWidgetItem> FileItem::getItem()
-{
-    return item;
 }
 
 int FileItem::getDuration()

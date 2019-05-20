@@ -82,9 +82,11 @@ void FileView::loadItem(QString item)
     connect(fileItem, SIGNAL(stop()), this, SLOT(handleStop()));
     connect(fileItem, SIGNAL(enter()), this, SLOT(handleEnter()));
 
-    addItem(fileItem->getItem().data());
-    fileItem->getItem()->setSizeHint(QSize(100, 60));
-    setItemWidget(fileItem->getItem().data(), fileItem);
+    QListWidgetItem* listItem = new QListWidgetItem;
+
+    addItem(listItem);
+    listItem->setSizeHint(QSize(100, 60));
+    setItemWidget(listItem, fileItem);
 }
 
 void FileView::loadItems(QStringList sortedItems, int scrollValue)

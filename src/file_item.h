@@ -29,7 +29,6 @@
 #include <QLabel>
 #include <QListWidgetItem>
 #include <QWidget>
-#include <QSharedPointer>
 
 #include "dimagebutton.h"
 #include "label.h"
@@ -45,7 +44,6 @@ public:
     FileItem(QWidget *parent=0);
     
     QFileInfo getFileInfo();
-    QSharedPointer<QListWidgetItem> getItem();
     QString getRecodingFilepath();
     bool eventFilter(QObject *, QEvent *event);
     int getDuration();
@@ -95,7 +93,6 @@ private:
     QHBoxLayout *pausePlayActionLayout;
     QHBoxLayout *playActionLayout;
     QHBoxLayout *playPauseActionLayout;
-    QSharedPointer<QListWidgetItem> item;
     QString durationTemplate;
     QString nameTemplate;
     QWidget *fileDisplayContainer;
