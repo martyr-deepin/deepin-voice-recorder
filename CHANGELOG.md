@@ -1,3 +1,13 @@
+<a name="1.4.1"></a>
+### 1.4.1 (2019-05-29)
+
+
+#### Bug Fixes
+
+*   crash when rename a voice ([6ee648b0](https://github.com/linuxdeepin/deepin-voice-recorder/commit/6ee648b0f0631db3089c94e1d87d5ddb54673f1f))
+
+
+
 <a name=""></a>
 ##  1.4.0 (2019-05-09)
 
