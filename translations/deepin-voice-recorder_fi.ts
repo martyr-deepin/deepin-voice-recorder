@@ -37,7 +37,7 @@
     <message>
         <location filename="../src/main.cpp" line="59"/>
         <source>Deepin Voice Recorder</source>
-        <translation>Deepin Voice Recorder</translation>
+        <translation>Deepin ääninauhuri</translation>
     </message>
 </context>
 <context>

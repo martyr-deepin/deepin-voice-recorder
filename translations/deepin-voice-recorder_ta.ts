@@ -4,7 +4,7 @@
     <message>
         <location filename="../src/file_view.cpp" line="58"/>
         <source>Rename</source>
-        <translation>மறுபெயரிட</translation>
+        <translation>மறுபெயரிடு</translation>
     </message>
     <message>
         <location filename="../src/file_view.cpp" line="60"/>
@@ -14,7 +14,7 @@
     <message>
         <location filename="../src/file_view.cpp" line="62"/>
         <source>Delete</source>
-        <translation type="unfinished"/>
+        <translation>நீக்கு</translation>
     </message>
 </context>
 <context>
@@ -46,7 +46,7 @@
         <location filename="../src/record_page.cpp" line="59"/>
         <location filename="../src/record_page.cpp" line="234"/>
         <source>New recording</source>
-        <translation>புதியதாக பதிய </translation>
+        <translation>புதிய பதிவு</translation>
     </message>
 </context>
 <context>
@@ -54,7 +54,7 @@
     <message>
         <location filename="../src/utils.cpp" line="136"/>
         <source>Recordings</source>
-        <translation type="unfinished"/>
+        <translation>பதிவுகள்</translation>
     </message>
 </context>
 </TS>

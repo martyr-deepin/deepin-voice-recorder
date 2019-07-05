@@ -4,7 +4,7 @@
     <message>
         <location filename="../src/file_view.cpp" line="58"/>
         <source>Rename</source>
-        <translation>改名</translation>
+        <translation>名前を変更</translation>
     </message>
     <message>
         <location filename="../src/file_view.cpp" line="60"/>
@@ -14,7 +14,7 @@
     <message>
         <location filename="../src/file_view.cpp" line="62"/>
         <source>Delete</source>
-        <translation type="unfinished"/>
+        <translation>削除</translation>
     </message>
 </context>
 <context>
@@ -27,17 +27,17 @@
     <message>
         <location filename="../src/main_window.cpp" line="52"/>
         <source>Open saved directory</source>
-        <translation>保存済みディレクトリーを開く</translation>
+        <translation>保存先のディレクトリーを開く</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="41"/>
         <source>Deepin Voice Recorder is a simple, beautiful and easy to use voice recording application. It supports visual recording, playback, recordings management and other functions.</source>
-        <translation type="unfinished"/>
+        <translation>Deepin ボイスレコーダーは、シンプルで綺麗な、使いやすい録音アプリケーションです。ボイスメモの視覚化、再生、録音したものの管理などができます。</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="59"/>
         <source>Deepin Voice Recorder</source>
-        <translation>Deepin Voice Recorder</translation>
+        <translation>Deepin ボイスレコーダー</translation>
     </message>
 </context>
 <context>
@@ -54,7 +54,7 @@
     <message>
         <location filename="../src/utils.cpp" line="136"/>
         <source>Recordings</source>
-        <translation type="unfinished"/>
+        <translation>レコーディング</translation>
     </message>
 </context>
 </TS>
