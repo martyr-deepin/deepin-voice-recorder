@@ -14,7 +14,7 @@
     <message>
         <location filename="../src/file_view.cpp" line="62"/>
         <source>Delete</source>
-        <translation type="unfinished"/>
+        <translation>刪除</translation>
     </message>
 </context>
 <context>
@@ -32,7 +32,7 @@
     <message>
         <location filename="../src/main.cpp" line="41"/>
         <source>Deepin Voice Recorder is a simple, beautiful and easy to use voice recording application. It supports visual recording, playback, recordings management and other functions.</source>
-        <translation type="unfinished"/>
+        <translation>Deepin 錄音機是個美觀、簡單且易用的錄音程式，具備波形圖顯示、回放錄音內容、管理錄音等功能。</translation>
     </message>
     <message>
         <location filename="../src/main.cpp" line="59"/>
@@ -54,7 +54,7 @@
     <message>
         <location filename="../src/utils.cpp" line="136"/>
         <source>Recordings</source>
-        <translation type="unfinished"/>
+        <translation>錄音</translation>
     </message>
 </context>
 </TS>
